@@ -1,0 +1,31 @@
+.Home_Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #95a5a6;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Home_Name {
+  font-size: 8rem;
+  color: #fff;
+}
+
+.Home_Career {
+  font-size: 3rem;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.Home_Btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 2rem;
+}
