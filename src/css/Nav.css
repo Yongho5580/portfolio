@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4.5rem;
+  padding: 1.25rem 2rem;
+}
+
+.navbar_name {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar_menus {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20%;
+  padding: 50px 50px;
+}
+
+.navbar_menu {
+  cursor: pointer;
+  color: #fff;
+  font-size: clamp(1.25rem, 2vw, 1.6rem);
+}
