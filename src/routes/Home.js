@@ -11,7 +11,17 @@ const Home = () => {
   return (
     <div className="Home_Container">
       <h1 data-aos="zoom-out" data-aos-duration={1500} className="Home_Name">
-        KIM YONG HO
+        <span className="span1">K</span>
+        <span className="span2">I</span>
+        <span className="span3">M</span>
+        &nbsp;
+        <span className="span4">Y</span>
+        <span className="span5">O</span>
+        <span className="span6">N</span>
+        <span className="span7">G</span>
+        &nbsp;
+        <span className="span8">H</span>
+        <span className="span9">O</span>
       </h1>
       <p data-aos="zoom-out" data-aos-duration={1000} className="Home_Career">
         Front-end Web Developer

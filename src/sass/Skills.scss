@@ -28,15 +28,9 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem 2rem;
+  padding: 4rem;
+  border-radius: 20px;
   color: #fff;
-}
-
-.Skills_Name {
-  font-size: 24px;
-}
-
-img {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -47,12 +41,19 @@ img {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-
   &:hover {
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    transform: scale(1.1);
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    padding: 2rem 2rem;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
   }
+}
+
+.Skills_Name {
+  font-size: 24px;
 }

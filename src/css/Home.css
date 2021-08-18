@@ -45,3 +45,61 @@ a {
   font-size: 2rem;
   width: 25vw;
 }
+
+span {
+  cursor: pointer;
+}
+
+.span1:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  color: #fc5c65;
+}
+
+.span2:hover {
+  -webkit-transition: 0.12s;
+  transition: 0.12s;
+  color: #fd9644;
+}
+
+.span3:hover {
+  -webkit-transition: 0.17s;
+  transition: 0.17s;
+  color: #fed330;
+}
+
+.span4:hover {
+  -webkit-transition: 0.19s;
+  transition: 0.19s;
+  color: #26de81;
+}
+
+.span5:hover {
+  -webkit-transition: 0.21s;
+  transition: 0.21s;
+  color: #2bcbba;
+}
+
+.span6:hover {
+  -webkit-transition: 0.23s;
+  transition: 0.23s;
+  color: #45aaf2;
+}
+
+.span7:hover {
+  -webkit-transition: 0.26s;
+  transition: 0.26s;
+  color: #4b7bec;
+}
+
+.span8:hover {
+  -webkit-transition: 0.28s;
+  transition: 0.28s;
+  color: #a55eea;
+}
+
+.span9:hover {
+  color: #4b6584;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}

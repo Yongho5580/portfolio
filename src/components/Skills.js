@@ -6,7 +6,9 @@ const Skills = () => {
     <article className="Skills">
       <div className="Skills_Container">
         <div className="Skills_Title">
-          <div className="Skills_Title_Text">Skills</div>
+          <div data-aos="zoom-in" className="Skills_Title_Text">
+            Skills
+          </div>
         </div>
         <div className="Skills_List">
           <div className="Skills_Item">

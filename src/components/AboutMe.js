@@ -13,8 +13,8 @@ const AboutMe = () => {
         <div className="AboutMe_Title">
           <div
             data-aos-delay={100}
-            data-aos-duration="2000"
-            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+            data-aos="fade-up"
             className="AboutMe_Text"
           >
             ABOUT ME
