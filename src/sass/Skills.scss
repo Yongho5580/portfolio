@@ -1,0 +1,58 @@
+.Skills {
+  height: 100vh;
+  background: #1c809f;
+}
+
+.Skills_Title {
+  display: flex;
+  justify-content: center;
+}
+
+.Skills_Title_Text {
+  position: relative;
+  top: 30px;
+  border-bottom: 1px solid;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.Skills_List {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 3fr);
+  margin-top: 40px;
+}
+
+.Skills_Item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+  color: #fff;
+}
+
+.Skills_Name {
+  font-size: 24px;
+}
+
+img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+  &:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}

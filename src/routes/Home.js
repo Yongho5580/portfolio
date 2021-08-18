@@ -3,7 +3,6 @@ import { FaGithub, FaBlog } from "react-icons/fa";
 import "../css/Home.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Nav from "../components/Nav";
 
 const Home = () => {
   useEffect(() => {
@@ -24,6 +23,7 @@ const Home = () => {
           data-aos-delay={200}
           href="https://github.com/Yongho5580"
           target="_blank"
+          rel="noreferrer"
           className="Home_Btn"
         >
           <FaGithub />
@@ -35,6 +35,7 @@ const Home = () => {
           data-aos-delay={300}
           href="https://velog.io/@drata313"
           target="_blank"
+          rel="noreferrer"
           className="Home_Btn"
         >
           <FaBlog />
