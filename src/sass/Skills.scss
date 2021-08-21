@@ -1,6 +1,6 @@
 .Skills {
   height: 100vh;
-  background: #1c809f;
+  background: #463f3a; /* fallback for old browsers */
 }
 
 .Skills_Title {
@@ -41,6 +41,7 @@
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  transform: rotate(0.001deg);
   &:hover {
     background-color: #fff;
     color: black;
@@ -51,6 +52,7 @@
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+    transform: rotate(0.02deg);
   }
 }
 

@@ -12,7 +12,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #95a5a6;
   height: 100vh;
 }
 
@@ -46,60 +45,115 @@ a {
   width: 25vw;
 }
 
-span {
+.span1 {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   cursor: pointer;
 }
 
 .span1:hover {
-  -webkit-transition: 0.1s;
-  transition: 0.1s;
-  color: #fc5c65;
+  color: #f8f9fa;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.span2 {
+  cursor: pointer;
 }
 
 .span2:hover {
-  -webkit-transition: 0.12s;
-  transition: 0.12s;
-  color: #fd9644;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  color: #e9ecef;
+}
+
+.span3 {
+  cursor: pointer;
 }
 
 .span3:hover {
-  -webkit-transition: 0.17s;
-  transition: 0.17s;
-  color: #fed330;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.23s;
+  transition: 0.23s;
+  color: #dee2e6;
+}
+
+.span4 {
+  cursor: pointer;
 }
 
 .span4:hover {
-  -webkit-transition: 0.19s;
-  transition: 0.19s;
-  color: #26de81;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.24s;
+  transition: 0.24s;
+  color: #ced4da;
+}
+
+.span5 {
+  cursor: pointer;
 }
 
 .span5:hover {
-  -webkit-transition: 0.21s;
-  transition: 0.21s;
-  color: #2bcbba;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  color: #adb5bd;
+}
+
+.span6 {
+  cursor: pointer;
 }
 
 .span6:hover {
-  -webkit-transition: 0.23s;
-  transition: 0.23s;
-  color: #45aaf2;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.27s;
+  transition: 0.27s;
+  color: #6c757d;
 }
 
 .span7:hover {
-  -webkit-transition: 0.26s;
-  transition: 0.26s;
-  color: #4b7bec;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.27s;
+  transition: 0.27s;
+  color: #495057;
+}
+
+.span8 {
+  cursor: pointer;
 }
 
 .span8:hover {
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: 0.28s;
   transition: 0.28s;
-  color: #a55eea;
+  color: #343a40;
+}
+
+.span9 {
+  cursor: pointer;
 }
 
 .span9:hover {
   color: #4b6584;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.29s;
+  transition: 0.29s;
 }

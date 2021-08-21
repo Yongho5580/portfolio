@@ -6,8 +6,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 150px 8% 150px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ffecd2), to(#fcb69f));
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-color: #b7b7a4;
 }
 
 .Projects_Content2 {
@@ -49,4 +48,61 @@
           flex-direction: row-reverse;
   padding: 150px 8% 150px;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.Projects_Info_Title {
+  font-size: 5rem;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.Projects_Info_Desc {
+  font-size: 2rem;
+  padding: 10px 20px;
+}
+
+.Projects_Info_Role {
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  margin-top: 30px;
+  line-height: 140%;
+}
+
+.Projects_Info_Links {
+  width: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 35px;
+  padding: 0px 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Projects_Link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  top: 70px;
+  font-size: 1.5rem;
+}
+
+.Projects_Link:hover {
+  display: inline-block;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.Projects_Img img {
+  width: 120%;
+  height: 100%;
 }

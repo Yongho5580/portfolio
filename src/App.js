@@ -1,20 +1,20 @@
 import React from "react";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./routes/Home";
-import Nav from "./components/Nav";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import MoreInfo from "./routes/MoreInfo";
 function App() {
   return (
     <div className="App">
-      <Nav />
       <BrowserRouter>
-        <Route exact path="/" component={Home} />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/more">
+            <MoreInfo />
+          </Route>
+        </Switch>
       </BrowserRouter>
-      <AboutMe />
-      <Skills />
-      <Projects />
     </div>
   );
 }

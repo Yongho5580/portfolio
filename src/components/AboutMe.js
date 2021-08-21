@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../css/AboutMe.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const AboutMe = () => {
             data-aos="fade-up"
             className="AboutMe_Text"
           >
-            ABOUT ME
+            <Link className="AboutMe_Link" to="/more"></Link>
           </div>
         </div>
         <div className="AboutMe_Content">

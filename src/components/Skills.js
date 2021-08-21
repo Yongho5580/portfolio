@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/Skills.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init();
+  });
   return (
     <article className="Skills">
       <div className="Skills_Container">

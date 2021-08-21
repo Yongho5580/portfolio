@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .AboutMe {
   height: 30vh;
   padding: 4rem 2rem;
@@ -7,7 +8,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #f5f5f5;
+  background-color: #323031;
+  color: #fff;
 }
 
 .AboutMe_Title {
@@ -21,6 +23,7 @@
 
 .AboutMe_Text {
   font-size: 3rem;
+  color: #fff;
   border-bottom: 1px solid;
 }
 
@@ -36,4 +39,34 @@
   font-size: 32px;
   margin-top: 30px;
   letter-spacing: 2px;
+}
+
+.AboutMe_MoreBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 20px;
+  background-color: pink;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.AboutMe_Link {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.AboutMe_Link::before {
+  content: "ABOUT ME";
+}
+
+.AboutMe_Link:hover {
+  color: #273c75;
+}
+
+.AboutMe_Link:hover::before {
+  content: "더 알아보기";
 }
