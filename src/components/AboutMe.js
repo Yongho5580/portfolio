@@ -9,7 +9,7 @@ const AboutMe = () => {
     AOS.init();
   });
   return (
-    <article className="AboutMe">
+    <article className="AboutMe" id="aboutme">
       <div className="AboutMe_Container">
         <div className="AboutMe_Title">
           <div

@@ -25,9 +25,20 @@
   display: -ms-grid;
   display: grid;
   place-items: center;
-  -ms-grid-columns: (3fr)[3];
-      grid-template-columns: repeat(3, 3fr);
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(25%, auto);
   margin-top: 40px;
+  grid-gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Skills_List {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(38%, auto);
+    padding: 3rem 1rem;
+  }
 }
 
 .Skills_Item {
@@ -44,7 +55,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 4rem;
+  padding: 7.5% 20px;
+  overflow: auto;
   border-radius: 20px;
   color: #fff;
   -webkit-transform: scale(1);
@@ -67,5 +79,5 @@
 }
 
 .Skills_Name {
-  font-size: 24px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }

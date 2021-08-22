@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  overflow-x: hidden;
+}
+
 .Home_Container {
   display: flex;
   flex-direction: column;
@@ -12,13 +18,16 @@ a {
 }
 
 .Home_Name {
-  font-size: 12rem;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 10px;
+  font-size: clamp(4.5rem, 13vw, 13rem);
   color: #fff;
 }
 
 .Home_Career {
-  font-size: 3rem;
+  font-size: clamp(2rem, 6vw, 3rem);
   margin-top: 40px;
+  font-family: "Urbanist", sans-serif;
   color: #fff;
 }
 
@@ -28,8 +37,8 @@ a {
   top: 200px;
   justify-content: space-between;
   margin-top: 20px;
-  font-size: 2rem;
-  width: 25vw;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  width: 50vw;
 }
 
 .span1 {
@@ -94,6 +103,7 @@ a {
 }
 
 .span7 {
+  cursor: pointer;
   &:hover {
     display: inline-block;
     transform: scale(1.1);

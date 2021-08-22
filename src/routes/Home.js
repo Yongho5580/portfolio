@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Nav />
-      <div className="Home_Container">
+      <div className="Home_Container" id="home">
         <video
           style={{
             position: "absolute",

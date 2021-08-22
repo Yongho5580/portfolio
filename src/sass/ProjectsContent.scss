@@ -1,8 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap");
+
 .Projects_Content1 {
   display: flex;
   justify-content: space-between;
   padding: 150px 8% 150px;
   background-color: #b7b7a4;
+
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .Projects_Content2 {
@@ -11,6 +18,10 @@
   flex-direction: row-reverse;
   padding: 150px 8% 150px;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .Projects_Content3 {
@@ -18,6 +29,10 @@
   justify-content: space-between;
   padding: 150px 8% 150px;
   background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .Projects_Content4 {
@@ -26,21 +41,26 @@
   flex-direction: row-reverse;
   padding: 150px 8% 150px;
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .Projects_Info_Title {
-  font-size: 5rem;
+  font-size: clamp(3rem, 8vw, 5rem);
   font-weight: 700;
   padding: 20px;
 }
 
 .Projects_Info_Desc {
-  font-size: 2rem;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-size: clamp(1rem, 4vw, 2rem);
   padding: 10px 20px;
 }
 
 .Projects_Info_Role {
-  font-size: 1.8rem;
+  font-size: clamp(1rem, 4vw, 1.8rem);
   padding: 10px 20px;
   margin-top: 30px;
   line-height: 140%;
@@ -50,8 +70,8 @@
   width: 25vw;
   display: flex;
   position: relative;
-  top: 35px;
-  padding: 0px 20px;
+  top: clamp(3rem, 10vh, 1rem);
+  padding: clamp(0.5rem, 10vw, 0.5rem);
   justify-content: space-between;
 }
 
@@ -60,8 +80,8 @@
   flex-direction: column;
   position: relative;
   top: 70px;
-  font-size: 1.5rem;
-
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  padding: clamp(0.5rem, 2vw, 1.4rem);
   &:hover {
     display: inline-block;
     transform: scale(1.1);
@@ -71,7 +91,7 @@
 
 .Projects_Img {
   img {
-    width: 120%;
-    height: 100%;
+    width: clamp(100%, 30vw, 120%);
+    height: clamp(100%, 30vw, 100%);
   }
 }

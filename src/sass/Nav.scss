@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&display=swap");
 .navbar {
   position: fixed;
   width: 100%;
@@ -12,32 +14,40 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 2rem;
-  padding: 1.25rem 2rem;
+  height: clamp(1rem, 2vw, 2rem);
+  padding: clamp(1rem, 2vw, 2rem);
 }
 
 .navbar_name {
   font-size: clamp(1.5rem, 2vw, 2rem);
+  font-family: "Rampart One", cursive;
   color: #fff;
   cursor: pointer;
 }
 
 .navbar_menus {
+  margin: 0;
+  padding: 0;
   display: flex;
-  justify-content: space-between;
-  width: 20%;
-  padding: 50px 50px;
 }
 
 .navbar_menu {
+  font-family: "Frank Ruhl Libre", serif;
   cursor: pointer;
   color: #fff;
-  font-size: clamp(1.25rem, 2vw, 1.6rem);
-  padding: 10px;
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  padding: clamp(0.5rem, 2vw, 1.4rem);
+  margin-left: clamp(0.1rem, 2vw, 1rem);
+  border-radius: 10px;
 
   &:hover {
     background: #fbf4f5;
     border-radius: 10px;
-    color: #040101;
+    transition: 0.2s;
+    color: black;
   }
+}
+
+.test1:hover {
+  color: black;
 }

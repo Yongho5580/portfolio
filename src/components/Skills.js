@@ -8,7 +8,7 @@ const Skills = () => {
     AOS.init();
   });
   return (
-    <article className="Skills">
+    <article className="Skills" id="skills">
       <div className="Skills_Container">
         <div className="Skills_Title">
           <div data-aos="zoom-in" className="Skills_Title_Text">
