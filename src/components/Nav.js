@@ -1,15 +1,6 @@
 import React from "react";
 import "../css/Nav.css";
-import * as Scroll from "react-scroll";
-import {
-  Link,
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   return (

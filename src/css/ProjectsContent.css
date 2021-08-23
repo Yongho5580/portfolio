@@ -119,6 +119,18 @@
           justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+  .Projects_Info_Links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    top: clamp(16rem, 1vw, 15rem);
+  }
+}
+
 .Projects_Link {
   display: -webkit-box;
   display: -ms-flexbox;
