@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-body {
-  overflow-x: hidden;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 .Home_Container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,6 +16,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 a {
@@ -29,7 +28,7 @@ a {
 .Home_Name {
   font-family: "Bebas Neue", cursive;
   letter-spacing: 10px;
-  font-size: clamp(4.5rem, 13vw, 13rem);
+  font-size: clamp(4.5rem, 13vw, 14rem);
   color: #fff;
 }
 
@@ -44,14 +43,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
-  top: 200px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
   font-size: clamp(1.5rem, 3vw, 2rem);
   width: 50vw;
+  font-family: "Rubik", sans-serif;
+  margin-top: clamp(6rem, 12vw, 13rem);
 }
 
 .span1 {
@@ -130,6 +128,10 @@ a {
   -webkit-transition: 0.27s;
   transition: 0.27s;
   color: #6c757d;
+}
+
+.Home_Btn2:hover {
+  color: #20c392;
 }
 
 .span7 {

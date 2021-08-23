@@ -1,0 +1,61 @@
+.MoreInfo {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #0d1117;
+  color: #fff;
+  overflow-y: hidden;
+}
+
+.MoreInfo_FirstLine {
+  color: #c9d1d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: clamp(3rem, 9vw, 7rem);
+  padding: clamp(3rem, 2vw, 2rem);
+  letter-spacing: 2px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.MoreInfo_Infos {
+  display: flex;
+  justify-content: space-between;
+  padding: clamp(1.5rem, 3vw, 3rem);
+}
+
+.MoreInfo_Introduce {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  padding: 30px;
+  line-height: 2;
+  color: #6c747c;
+}
+
+.MoreInfo_Stacks {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  text-align: center;
+  padding: clamp(30px, 2vw, 30px);
+  line-height: 2;
+  color: #6c747c;
+}
+
+.MoreInfo_Title {
+  color: #59a6ff;
+  padding-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.MoreInfo_Btn {
+  padding: 10px;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.MoreInfo_Btn_Text {
+  cursor: pointer;
+  padding: 5px;
+  &:hover {
+    color: #0e4428;
+  }
+}

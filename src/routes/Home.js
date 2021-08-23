@@ -26,13 +26,14 @@ const Home = () => {
             left: "0",
             width: "100%",
             height: "100%",
-            overflow: "hidden",
+            overflow: "auto",
             objectFit: "cover",
             OObjectFit: "cover",
           }}
           autoPlay
           loop
           muted
+          playsInline
         >
           <source src={Background} type="video/mp4" />
         </video>
@@ -72,7 +73,7 @@ const Home = () => {
             href="https://velog.io/@drata313"
             target="_blank"
             rel="noreferrer"
-            className="Home_Btn"
+            className="Home_Btn2"
           >
             <FaBlog />
             &nbsp;Blog

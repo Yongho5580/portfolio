@@ -169,7 +169,7 @@ const ProjectsContent = () => {
           </div>
           <div className="Projects_Info_Role">
             <span>
-              Front-end: React, SCSS <br />
+              Front-end: React, React-Router, SCSS <br />
               Deploy: Github Pages
               <br />
               Role: Front-end
